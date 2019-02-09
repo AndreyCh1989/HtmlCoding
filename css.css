@@ -145,6 +145,7 @@ body {
     flex-direction: row;
     justify-content: center;
     list-style-type: none;
+    margin-bottom: 0;
 }
 
 .menu-link {
@@ -1025,7 +1026,7 @@ body {
 
 .subheader-leftside-text {
     color: #f16d7f;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 20px;
     text-transform: uppercase;
     font-size: 24px;
@@ -1129,6 +1130,8 @@ body {
 .catalog-container {
     display: flex;
     justify-content: space-between;
+    
+    margin-top: 59px;
 }
 
 .left-aside-collapse-button {
@@ -1158,7 +1161,7 @@ body {
 }
 
 .left-aside-collapse-button-text {
-    color: #ef5b70;
+    color: #6f6e6e;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
@@ -1238,10 +1241,6 @@ body {
     margin-left: 9px;
 }
 
-
-
-
-
 .size-checkboxes {
     display: flex;
     flex-direction: column;
@@ -1258,4 +1257,183 @@ body {
     padding-right: 0;
 }
 
+.catalog-view-all {
+    padding: 12px 43px 11px 45px;
+    
+    color: #ef5b70;
+    font-weight: bold;
+    font-size: 16px;
+    
+    border-radius: 3px;
+    border: 1px solid #ef5b70;
+    background-color: #ffffff;
+}
 
+.catalog-bottom-controls {
+    margin-top: 70px;
+    margin-bottom: 110px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.catalog-pagination-item {
+    color: #c4c4c4;
+    font-weight: bold;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.catalog-item-pagination {
+    display: flex;
+    flex-direction: row;
+}
+
+.catalog-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 261px;
+    height: 44px;
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+}
+
+.catalog-pagination-arrow-right {
+    color: #aaaaaa;
+    font-family: "Font Awesome";
+    font-weight: bold;
+    line-height: -26.15px;
+    font-size: 20px;
+}
+
+.catalog-pagination-arrow-left {
+    color: #aaaaaa;
+    font-family: "Font Awesome";
+    font-weight: bold;
+    line-height: -26.15px;
+    font-size: 20px;
+}
+
+.catalog-pagination-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 183px;
+}
+
+.catalog-pagination-item-combination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.catalog-sorting {
+    height: 50px;
+    background-color: #f3f3f3;
+    
+    margin-top: 41px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.catalog-sorting-select-font {
+    color: #6f6e6e;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+        
+    border: 1px solid #ebebeb;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.catalog-sorting-item {
+    height: 30px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.catalog-sorting-select-label {
+    padding-left: 13px;
+    padding-right: 8px;
+}
+
+#custom-handle {
+    width: 3em;
+    height: 1.6em;
+    top: 50%;
+    margin-top: -.8em;
+    text-align: center;
+    line-height: 1.6em;
+  }
+.fa-square {
+    width: 13px;
+    height: 13px;
+    color: #ebebeb;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.fa-caret-down {
+    color: #6f6e6e;
+    font-weight: 400;
+    line-height: 19.99px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+
+.fa-caret-down~.left-aside-collapse-button-text {
+    color: #6f6e6e;
+    font-weight: 400;
+    line-height: 19.99px;
+    text-transform: uppercase;
+    font-size: 14px;    
+}
+
+.menu-link-choosed {
+    border-bottom: 3px solid #ef5b70;
+}
+
+.left-aside-collapse-button:not(:first-of-type) {
+    margin-top: 18px;
+}
+
+.range-out-text {
+    color: #6f6e6e;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.price-range {
+    width: 262px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.range-out {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 21px;
+}

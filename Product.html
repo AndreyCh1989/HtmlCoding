@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equlv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    
     <link rel="stylesheet" href="css.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Brand</title>
 </head>
 
@@ -181,7 +181,7 @@
                     </div>
                 </li>
                 <li class="navigation-item nav-item-man">
-                    <a href="" class="menu-link">Man</a>
+                    <a href="" class="menu-link menu-link-choosed">Man</a>
                     <div class="dropdown-menu-man dropdown">
                         <div class="dropdown-container">
                             <div class="dropdown-category">Women</div>
@@ -585,41 +585,65 @@
                     <div class="size-checkboxes">
                         <div style="display: flex; flex-direction: row;">
                             <div class="size-checkbox">    
-                                <input type="checkbox" id="size" name="size">
-                                <label for="subscribeNews" class="size-checkbox-label">XXS</label>
+                                <input type="checkbox" class="checkbox" id="checkbox1" name="size">
+                                <label for="checkbox1" class="size-checkbox-label">XXS</label>
                             </div>
                             <div class="size-checkbox">
-                                <input type="checkbox" id="size" name="size">
-                                <label for="subscribeNews" class="size-checkbox-label">XS</label>
+                                <input type="checkbox" class="checkbox" id="checkbox2" name="size">
+                                <label for="checkbox2" class="size-checkbox-label">XS</label>
                             </div>
                             <div class="size-checkbox">
-                                <input type="checkbox" id="size" name="size">
-                                <label for="subscribeNews" class="size-checkbox-label">S</label>
+                                <input type="checkbox" class="checkbox" id="checkbox3" name="size">
+                                <label for="checkbox3" class="size-checkbox-label">S</label>
                             </div>
                             <div class="size-checkbox">
-                                <input type="checkbox" id="size" name="size">
-                                <label for="subscribeNews" class="size-checkbox-label">M</label>
+                                <input type="checkbox" class="checkbox" id="checkbox4" name="size">
+                                <label for="checkbox4" class="size-checkbox-label">M</label>
                             </div>
                         </div>
                         <div style="display: flex; flex-direction: row;">
                             <div class="size-checkbox">
-                                <input type="checkbox" id="size" name="size">
-                                <label for="subscribeNews" class="size-checkbox-label">L</label>
+                                <input type="checkbox" class="checkbox" id="checkbox5" name="size">
+                                <label for="checkbox5" class="size-checkbox-label">L</label>
                             </div>
                             <div class="size-checkbox">
-                                <input type="checkbox" id="size" name="size">
-                                <label for="subscribeNews" class="size-checkbox-label">XL</label>
+                                <input type="checkbox" class="checkbox" id="checkbox6" name="size">
+                                <label for="checkbox6" class="size-checkbox-label">XL</label>
                             </div>
                             <div class="size-checkbox">
-                                <input type="checkbox" id="size" name="size">
-                                <label for="subscribeNews" class="size-checkbox-label">XXL</label>
+                                <input type="checkbox" class="checkbox" id="checkbox7" name="size">
+                                <label for="checkbox7" class="size-checkbox-label">XXL</label>
                             </div>
                         </div>     
                     </div>                                       
                 </div>
-                <div class="catalog-options-trends">
+                <div class="catalog-options-price">
                     <p class="catalog-option-header">Price</p>
+                    <div class="price-range">
+                        <input type="range" id="range" class="price-range" name="volume" min="0" max="11">
+                        <div class="range-out">
+                            <p class="range-out-text">$52</p>
+                            <p class="range-out-text">$400</p>
+                        </div>   
+                    </div>                     
                 </div>
+            </div>
+            
+            <div class="catalog-sorting">
+                <div class="catalog-sorting-item" style="margin: 0 10px 0 9px">
+                    <label class="catalog-sorting-select-font catalog-sorting-select-label">Sort By</label>
+                    <select class="catalog-sorting-select catalog-sorting-select-font" id = "sortBy">
+                      <option value = "1">Name</option>
+                      <option value = "2">Price</option>
+                    </select>
+                </div> 
+                <div class="catalog-sorting-item">
+                    <label class="catalog-sorting-select-font catalog-sorting-select-label">Show</label>
+                    <select class="catalog-sorting-select catalog-sorting-select-font" style="width: 57px;" id = "show">
+                      <option value = "1">09</option>
+                      <option value = "2">18</option>
+                    </select>
+                </div>    
             </div>
             
             <section class="featured-items catalog-items">
@@ -725,7 +749,29 @@
                     </div>
                 </div>
             </section>
-        </section>        
+            
+            <div class="catalog-bottom-controls">
+                    <div class="catalog-bottom-controls-left-side">
+                        <div class="catalog-pagination">
+                            <a href="" class="catalog-pagination-arrow-left fas fa-angle-left"></a>
+                            <div class="catalog-pagination-items">
+                                <a href="" class="catalog-pagination-item" style="color: #ef5b70;">1</a>
+                                <a href="" class="catalog-pagination-item">2</a>
+                                <a href="" class="catalog-pagination-item">3</a>
+                                <a href="" class="catalog-pagination-item">4</a>
+                                <a href="" class="catalog-pagination-item">5</a>
+                                <div class="catalog-pagination-item-combination">
+                                    <a href="" class="catalog-pagination-item">6</a>
+                                    <p class="catalog-pagination-item" style="margin-top: 15px;">.....</p>
+                                    <a href="" class="catalog-pagination-item">20</a>
+                                </div>    
+                            </div>                            
+                            <a href="" class="catalog-pagination-arrow-right fas fa-angle-right"></a>
+                        </div>
+                    </div>
+                    <a href="" class="catalog-bottom-controls-right-side catalog-view-all">View All</a>   
+                </div>
+        </section>
     </div>
         
     <div class="bottom-offers">
@@ -861,10 +907,16 @@
 <script>
     $( ".left-aside-collapse-button" ).click(function() {
 	   el = $(this).next();	
-	   if (el.is(":hidden"))
+	   if (el.is(":hidden")) {
         el.show();
-	   else 	
-		el.hide();
+        $(this).children(".fa-caret-down").toggleClass("fa-caret-down fa-caret-up");
+        $(this).children(".left-aside-collapse-button-text").css("color", "#ef5b70");   
+       }        
+	   else {
+        el.hide();
+        $(this).children(".fa-caret-up").toggleClass("fa-caret-up fa-caret-down");
+        $(this).children(".left-aside-collapse-button-text").css("color", "#6f6e6e");   
+       }		
     });
 </script>
 
