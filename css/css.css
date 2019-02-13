@@ -308,6 +308,7 @@ body {
     margin-top: 60px;
     justify-content: space-between;
     align-content: space-between;
+    width: 100%;
 }
 
 .feature {
