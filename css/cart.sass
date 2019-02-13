@@ -5,10 +5,10 @@ $column-shipping-width: 141px
 $column-subtotal-width: 136px
 $column-action-width: 72px
 
-$card-items-height: 497px
-$card-header-height: 60px
+$cart-items-height: 497px
+$cart-header-height: 60px
 
-.card-table 
+.cart-table 
     width: 100%
 
 .column-prod-det 
@@ -34,9 +34,9 @@ $card-header-height: 60px
 .column-action 
     width: $column-action-width
 
-.card-table
+.cart-table
     &-headers-row
-        height: $card-header-height
+        height: $cart-header-height
 
     &-row
         border-bottom: 1px solid #eaeaea
@@ -54,7 +54,7 @@ $card-header-height: 60px
             height: 30px
             border: 1px solid #eaeaea
             background-color: #ffffff
-            margin-top: $card-items-height/3/2-15
+            margin-top: $cart-items-height/3/2-15
         
         &-pd
             display: flex
@@ -70,7 +70,7 @@ $card-header-height: 60px
                 width: 100px
 
     &-row 
-        height: $card-items-height/3
+        height: $cart-items-height/3
 
     &-header-font 
         color: #222222
@@ -87,10 +87,10 @@ $card-header-height: 60px
     display: flex
     justify-content: center
 
-.card-container
+.cart-container
     margin-top: 90px
 
-.card-container-buttons
+.cart-container-buttons
     display: flex
     justify-content: space-between
     flex-direction: row

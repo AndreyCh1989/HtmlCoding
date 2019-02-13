@@ -84,7 +84,7 @@ body {
     display: block;
 }
 
-.card {
+.cart {
     margin-right: 26px;
     border: 0;
     border-radius: 0;
@@ -354,7 +354,7 @@ body {
     background-color: #ffffff;
 }
 
-.add-card-txt {
+.add-cart-txt {
     position: absolute;
     top: 94px;
     left: 70px;
@@ -457,11 +457,11 @@ body {
     width: 100%;
 }
 
-.feature:hover .add-card-txt {
+.feature:hover .add-cart-txt {
     display: flex;
 }
 
-.add-card-txt:hover {
+.add-cart-txt:hover {
     box-shadow: 0px 0px 15px #ffffff;
 }
 
@@ -978,7 +978,7 @@ body {
     cursor: pointer;
 }
 
-.gotocard {
+.gotocart {
     color: #4a4a4a;
     font-weight: 700;
     text-transform: uppercase;

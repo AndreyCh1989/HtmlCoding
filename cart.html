@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    
     <link rel="stylesheet" href="./css/css.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/card.css" />
-    <title>Shoping Card</title>
+    <link rel="stylesheet" href="./css/cart.css" />
+    <title>Shoping cart</title>
 </head>
 
 <body>
@@ -58,8 +58,8 @@
             </div>
             <div class="header-right">
                 <div class="cart">
-                    <a href="./card.html" style="display: block; width: 32px; margin-right: 26px;">
-                        <img src="img/card.svg" alt="card" class="card">
+                    <a href="./cart.html" style="display: block; width: 32px; margin-right: 26px;">
+                        <img src="img/cart.svg" alt="cart" class="cart">
                     </a>
                     
                     <div class="bag">
@@ -114,7 +114,7 @@
                                     <p class="total-text">$500.00</p>
                                 </div>
                                 <input type="submit" class="checkout" value="Checkout">
-                                <a href="./card.html" class="gotocard">Go to cart</a>    
+                                <a href="./cart.html" class="gotocart">Go to cart</a>    
                            </div>
                         </div>
                     </div>    
@@ -530,8 +530,8 @@
         </div>
     </header>
     
-    <div class="container card-container">
-        <table class="card-table">
+    <div class="container cart-container">
+        <table class="cart-table">
             <colgroup>
                 <col class="column-prod-det"/>
                 <col class="column-unit-price"/>
@@ -540,74 +540,74 @@
                 <col class="column-subtotal"/>
                 <col class="column-action"/>
             </colgroup>
-            <thead class="card-table-headers">
-                <tr class="card-table-headers-row">											   											    
-                    <th class="card-table-headers-cell card-table-header-font">Product Details</th>
-                    <th class="card-table-headers-cell card-table-header-font centered-text">unite Price</th>
-                    <th class="card-table-headers-cell card-table-header-font centered-text">Quantity</th>
-                    <th class="card-table-headers-cell card-table-header-font centered-text">shipping</th>
-                    <th class="card-table-headers-cell card-table-header-font centered-text">Subtotal</th>
-                    <th class="card-table-headers-cell card-table-header-font centered-text">ACTION</th>
+            <thead class="cart-table-headers">
+                <tr class="cart-table-headers-row">											   											    
+                    <th class="cart-table-headers-cell cart-table-header-font">Product Details</th>
+                    <th class="cart-table-headers-cell cart-table-header-font centered-text">unite Price</th>
+                    <th class="cart-table-headers-cell cart-table-header-font centered-text">Quantity</th>
+                    <th class="cart-table-headers-cell cart-table-header-font centered-text">shipping</th>
+                    <th class="cart-table-headers-cell cart-table-header-font centered-text">Subtotal</th>
+                    <th class="cart-table-headers-cell cart-table-header-font centered-text">ACTION</th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="card-table-row">											   											    
-                    <td class="card-table-cell">
-                        <div class="card-table-cell-pd">                           
-                            <img src="img/catalog/1.png" class="card-table-cell-pd-pic">
-                            <div class="card-table-cell-pd-details" style="margin-left: 15px; margin-top: 13px;">
-                                <a href="./product.html" class="card-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</a>
-                                <p class="card-table-cell-font" style="margin-bottom: 0;">Color:   <span style="font-weight: 300;">Red</span></p>
-                                <p class="card-table-cell-font" style="margin-bottom: 0;">Size:   <span style="font-weight: 300;">Xll</span></p>
+                <tr class="cart-table-row">											   											    
+                    <td class="cart-table-cell">
+                        <div class="cart-table-cell-pd">                           
+                            <img src="img/catalog/1.png" class="cart-table-cell-pd-pic">
+                            <div class="cart-table-cell-pd-details" style="margin-left: 15px; margin-top: 13px;">
+                                <a href="./product.html" class="cart-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</a>
+                                <p class="cart-table-cell-font" style="margin-bottom: 0;">Color:   <span style="font-weight: 300;">Red</span></p>
+                                <p class="cart-table-cell-font" style="margin-bottom: 0;">Size:   <span style="font-weight: 300;">Xll</span></p>
                             </div>
                         </div>                        
                     </td>
-                    <td class="card-table-cell card-table-cell-font centered-text">$150</td>
-                    <td class="card-table-cell centered-content"><input class="card-table-cell-quonity-border card-table-cell-font" type="number" name="quantity" min="0" max="10000"></td>
-                    <td class="card-table-cell card-table-cell-font centered-text">Free</td>
-                    <td class="card-table-cell card-table-cell-font centered-text">$300</td>
-                    <td class="card-table-cell card-table-cell-font centered-text"><a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a></td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text">$150</td>
+                    <td class="cart-table-cell centered-content"><input class="cart-table-cell-quonity-border cart-table-cell-font" type="number" name="quantity" min="0" max="10000"></td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text">Free</td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text">$300</td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text"><a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a></td>
                 </tr>
-                <tr class="card-table-row">											   											    
-                    <td class="card-table-cell">
-                        <div class="card-table-cell-pd">
-                            <img src="img/catalog/2.png" class="card-table-cell-pd-pic">
-                            <div class="card-table-cell-pd-details" style="margin-left: 15px; margin-top: 13px;">
-                                <a href="./product.html" class="card-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</a>
-                                <p class="card-table-cell-font" style="margin-bottom: 0;">Color:   <span style="font-weight: 300;">Red</span></p>
-                                <p class="card-table-cell-font" style="margin-bottom: 0;">Size:   <span style="font-weight: 300;">Xll</span></p>
+                <tr class="cart-table-row">											   											    
+                    <td class="cart-table-cell">
+                        <div class="cart-table-cell-pd">
+                            <img src="img/catalog/2.png" class="cart-table-cell-pd-pic">
+                            <div class="cart-table-cell-pd-details" style="margin-left: 15px; margin-top: 13px;">
+                                <a href="./product.html" class="cart-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</a>
+                                <p class="cart-table-cell-font" style="margin-bottom: 0;">Color:   <span style="font-weight: 300;">Red</span></p>
+                                <p class="cart-table-cell-font" style="margin-bottom: 0;">Size:   <span style="font-weight: 300;">Xll</span></p>
                             </div>
                         </div>                        
                     </td>
-                    <td class="card-table-cell card-table-cell-font centered-text">$150</td>
-                    <td class="card-table-cell centered-content"><input class="card-table-cell-quonity-border card-table-cell-font" type="number" name="quantity" min="0" max="10000"></td>
-                    <td class="card-table-cell card-table-cell-font centered-text">Free</td>
-                    <td class="card-table-cell card-table-cell-font centered-text">$300</td>
-                    <td class="card-table-cell card-table-cell-font centered-text"><a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a></td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text">$150</td>
+                    <td class="cart-table-cell centered-content"><input class="cart-table-cell-quonity-border cart-table-cell-font" type="number" name="quantity" min="0" max="10000"></td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text">Free</td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text">$300</td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text"><a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a></td>
                 </tr>
-                <tr class="card-table-row">											   											    
-                    <td class="card-table-cell">
-                        <div class="card-table-cell-pd">
-                            <img src="img/catalog/8.png" class="card-table-cell-pd-pic">
-                            <div class="card-table-cell-pd-details" style="margin-left: 15px; margin-top: 13px;">
-                                <a href="./product.html"  class="card-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</a>
-                                <p class="card-table-cell-font" style="margin-bottom: 0;">Color:   <span style="font-weight: 300;">Red</span></p>
-                                <p class="card-table-cell-font" style="margin-bottom: 0;">Size:   <span style="font-weight: 300;">Xll</span></p>
+                <tr class="cart-table-row">											   											    
+                    <td class="cart-table-cell">
+                        <div class="cart-table-cell-pd">
+                            <img src="img/catalog/8.png" class="cart-table-cell-pd-pic">
+                            <div class="cart-table-cell-pd-details" style="margin-left: 15px; margin-top: 13px;">
+                                <a href="./product.html"  class="cart-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</a>
+                                <p class="cart-table-cell-font" style="margin-bottom: 0;">Color:   <span style="font-weight: 300;">Red</span></p>
+                                <p class="cart-table-cell-font" style="margin-bottom: 0;">Size:   <span style="font-weight: 300;">Xll</span></p>
                             </div>
                         </div>                        
                     </td>
-                    <td class="card-table-cell card-table-cell-font centered-text">$150</td>
-                    <td class="card-table-cell centered-content"><input class="card-table-cell-quonity-border card-table-cell-font" type="number" name="quantity" min="0" max="10000"></td>
-                    <td class="card-table-cell card-table-cell-font centered-text">Free</td>
-                    <td class="card-table-cell card-table-cell-font centered-text">$300</td>
-                    <td class="card-table-cell card-table-cell-font centered-text"><a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a></td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text">$150</td>
+                    <td class="cart-table-cell centered-content"><input class="cart-table-cell-quonity-border cart-table-cell-font" type="number" name="quantity" min="0" max="10000"></td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text">Free</td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text">$300</td>
+                    <td class="cart-table-cell cart-table-cell-font centered-text"><a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a></td>
                 </tr>
             </tbody>
         </table>
 
-        <div class="card-container-buttons" style="margin-top: 44px;">
-            <input type="submit" class="gotocard" value="cLEAR SHOPPING CART">
-            <input type="submit" class="gotocard" value="cONTINUE sHOPPING">    
+        <div class="cart-container-buttons" style="margin-top: 44px;">
+            <input type="submit" class="gotocart" value="cLEAR SHOPPING CART">
+            <input type="submit" class="gotocart" value="cONTINUE sHOPPING">    
         </div>           
     </div>
         
