@@ -8,9 +8,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    
-    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="./css/css.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="./css/card.css" />
     <title>Shoping Card</title>
 </head>
 
@@ -18,7 +18,7 @@
     <header class="header">
         <div class="container header-flex">
             <div class="header-left">
-                <a href="#" class="logo"><img src="img/logo.png" class="logo-img" alt="logo">BRAN<span class="logo-d">D</span></a>
+                <a href="./index.html" class="logo"><img src="img/logo.png" class="logo-img" alt="logo">BRAN<span class="logo-d">D</span></a>
                 <div class="browse">Browse<img src="img/arrow-down-black.png" alt="" style="margin: 0px 0px 1px 8px">
                     <div class="browse-dropdown dropdown">
                         <div class="dropdown-container">
@@ -58,7 +58,7 @@
             </div>
             <div class="header-right">
                 <div class="cart">
-                    <a href="" style="display: block; width: 32px; margin-right: 26px;">
+                    <a href="./card.html" style="display: block; width: 32px; margin-right: 26px;">
                         <img src="img/card.svg" alt="card" class="card">
                     </a>
                     
@@ -114,7 +114,7 @@
                                     <p class="total-text">$500.00</p>
                                 </div>
                                 <input type="submit" class="checkout" value="Checkout">
-                                <input type="submit" class="gotocard" value="Go to cart">    
+                                <a href="./card.html" class="gotocard">Go to cart</a>    
                            </div>
                         </div>
                     </div>    
@@ -553,54 +553,54 @@
             <tbody>
                 <tr class="card-table-row">											   											    
                     <td class="card-table-cell">
-                        <div class="card-table-cell-pd">
-                            <img src="img/catalog/1.png" class="card-table-cell-pd-pic"></img>
+                        <div class="card-table-cell-pd">                           
+                            <img src="img/catalog/1.png" class="card-table-cell-pd-pic">
                             <div class="card-table-cell-pd-details" style="margin-left: 15px; margin-top: 13px;">
-                                <p class="card-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</p>
-                                <p class="card-table-cell-font" style="margin-bottom: 0;">Color:   <stan style="font-weight: 300;">Red</span></p>
+                                <a href="./product.html" class="card-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</a>
+                                <p class="card-table-cell-font" style="margin-bottom: 0;">Color:   <span style="font-weight: 300;">Red</span></p>
                                 <p class="card-table-cell-font" style="margin-bottom: 0;">Size:   <span style="font-weight: 300;">Xll</span></p>
-                            <div>
+                            </div>
                         </div>                        
                     </td>
                     <td class="card-table-cell card-table-cell-font centered-text">$150</td>
-                    <td class="card-table-cell centered-content"><input class="card-table-cell-quonity-border card-table-cell-font" type="text" name="quantity"></td>
+                    <td class="card-table-cell centered-content"><input class="card-table-cell-quonity-border card-table-cell-font" type="number" name="quantity" min="0" max="10000"></td>
                     <td class="card-table-cell card-table-cell-font centered-text">Free</td>
                     <td class="card-table-cell card-table-cell-font centered-text">$300</td>
-                    <td class="card-table-cell card-table-cell-font centered-text"><i class="fas fa-times-circle bag-item-cancel-icon"></i></td>
+                    <td class="card-table-cell card-table-cell-font centered-text"><a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a></td>
                 </tr>
                 <tr class="card-table-row">											   											    
                     <td class="card-table-cell">
                         <div class="card-table-cell-pd">
-                            <img src="img/catalog/2.png" class="card-table-cell-pd-pic"></img>
+                            <img src="img/catalog/2.png" class="card-table-cell-pd-pic">
                             <div class="card-table-cell-pd-details" style="margin-left: 15px; margin-top: 13px;">
-                                <p class="card-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</p>
-                                <p class="card-table-cell-font" style="margin-bottom: 0;">Color:   <stan style="font-weight: 300;">Red</span></p>
+                                <a href="./product.html" class="card-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</a>
+                                <p class="card-table-cell-font" style="margin-bottom: 0;">Color:   <span style="font-weight: 300;">Red</span></p>
                                 <p class="card-table-cell-font" style="margin-bottom: 0;">Size:   <span style="font-weight: 300;">Xll</span></p>
-                            <div>
+                            </div>
                         </div>                        
                     </td>
                     <td class="card-table-cell card-table-cell-font centered-text">$150</td>
-                    <td class="card-table-cell centered-content"><input class="card-table-cell-quonity-border card-table-cell-font" type="text" name="quantity"></td>
+                    <td class="card-table-cell centered-content"><input class="card-table-cell-quonity-border card-table-cell-font" type="number" name="quantity" min="0" max="10000"></td>
                     <td class="card-table-cell card-table-cell-font centered-text">Free</td>
                     <td class="card-table-cell card-table-cell-font centered-text">$300</td>
-                    <td class="card-table-cell card-table-cell-font centered-text"><i class="fas fa-times-circle bag-item-cancel-icon"></i></td>
+                    <td class="card-table-cell card-table-cell-font centered-text"><a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a></td>
                 </tr>
                 <tr class="card-table-row">											   											    
                     <td class="card-table-cell">
                         <div class="card-table-cell-pd">
-                            <img src="img/catalog/8.png" class="card-table-cell-pd-pic"></img>
+                            <img src="img/catalog/8.png" class="card-table-cell-pd-pic">
                             <div class="card-table-cell-pd-details" style="margin-left: 15px; margin-top: 13px;">
-                                <p class="card-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</p>
-                                <p class="card-table-cell-font" style="margin-bottom: 0;">Color:   <stan style="font-weight: 300;">Red</span></p>
+                                <a href="./product.html"  class="card-table-header-font" style="margin-bottom: 38px;">Mango  People  T-shirt</a>
+                                <p class="card-table-cell-font" style="margin-bottom: 0;">Color:   <span style="font-weight: 300;">Red</span></p>
                                 <p class="card-table-cell-font" style="margin-bottom: 0;">Size:   <span style="font-weight: 300;">Xll</span></p>
-                            <div>
+                            </div>
                         </div>                        
                     </td>
                     <td class="card-table-cell card-table-cell-font centered-text">$150</td>
-                    <td class="card-table-cell centered-content"><input class="card-table-cell-quonity-border card-table-cell-font" type="text" name="quantity"></td>
+                    <td class="card-table-cell centered-content"><input class="card-table-cell-quonity-border card-table-cell-font" type="number" name="quantity" min="0" max="10000"></td>
                     <td class="card-table-cell card-table-cell-font centered-text">Free</td>
                     <td class="card-table-cell card-table-cell-font centered-text">$300</td>
-                    <td class="card-table-cell card-table-cell-font centered-text"><i class="fas fa-times-circle bag-item-cancel-icon"></i></td>
+                    <td class="card-table-cell card-table-cell-font centered-text"><a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a></td>
                 </tr>
             </tbody>
         </table>
@@ -680,7 +680,7 @@
         <div class="container">
             <div class="footer-middle">
                 <div class="about">
-                    <a href="#" class="logo"><img src="img\logo.png" class="logo-img" alt="logo">BRAN<span class="logo-d">D</span></a>
+                    <a href="./index.html" class="logo"><img src="img\logo.png" class="logo-img" alt="logo">BRAN<span class="logo-d">D</span></a>
                     <p class="about-text">Objectively transition extensive data rather than cross functional<br /> solutions. Monotonectally syndicate multidisciplinary materials<br /> before go forward benefits. Intrinsicly syndicate an expanded array<br /> of processes and cross-unit partnerships.<br /><br />
 
                         Efficiently plagiarize 24/365 action items and focused infomediaries.<br />
