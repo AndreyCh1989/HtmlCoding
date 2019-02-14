@@ -920,6 +920,7 @@ body {
     width: 262px;
     
     position: absolute;
+    z-index: 5;
     
     top: 33px;
     left: -4px;
