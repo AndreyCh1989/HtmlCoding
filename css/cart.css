@@ -29,59 +29,39 @@
 .cart-table-headers-row {
   height: 60px;
 }
-
 .cart-table-row {
   border-bottom: 1px solid #eaeaea;
   border-top: 1px solid #eaeaea;
 }
-
 .cart-table-cell-font {
   color: #656565;
   font-weight: 400;
   font-size: 13px;
   text-align: center;
 }
-
 .cart-table-cell-quonity-border {
   width: 54px;
   height: 30px;
   border: 1px solid #eaeaea;
   background-color: #ffffff;
-  margin-top: 67.83333px;
+  margin-top: 67.8333333333px;
 }
-
 .cart-table-cell-pd {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 .cart-table-cell-pd-details {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
 }
-
 .cart-table-cell-pd-pic {
   height: 115px;
   width: 100px;
 }
-
 .cart-table-row {
-  height: 165.66667px;
+  height: 165.6666666667px;
 }
-
 .cart-table-header-font {
   color: #222222;
   font-weight: 800;
@@ -96,12 +76,8 @@
 }
 
 .centered-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .cart-container {
@@ -109,16 +85,9 @@
 }
 
 .cart-container-buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .grand-total-container {
@@ -126,28 +95,18 @@
   width: 360px;
   height: 100%;
 }
-
 .grand-total-container-elements {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
   height: 100%;
 }
-
 .grand-total-container-elements-underline {
   padding-bottom: 22px;
   border-bottom: 1px solid #e2e2e2;
   width: 275px;
   text-align: right;
 }
-
 .grand-total-container-elements-button {
   color: #ffffff;
   font-weight: 700;
@@ -158,38 +117,27 @@
 
 .shipping-container {
   height: 214px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
 .shipping-container-header-font {
   color: #222222;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 16px;
 }
-
 .shipping-container-description-font {
   color: #4a4a4a;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 11px;
 }
-
 .shipping-container-input-font {
   color: #b1b1b1;
   font-weight: 300;
   font-size: 13px;
 }
-
 .shipping-container-input {
   height: 45px;
   width: 355px;
@@ -197,7 +145,6 @@
   border: 1px solid #eaeaea;
   background-color: #ffffff;
 }
-
 .shipping-container-button {
   color: #4a4a4a;
   font-weight: 700;
@@ -209,16 +156,12 @@
 }
 
 .shipping-discount {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .shipping-address {
   width: 355px;
 }
+
 /*# sourceMappingURL=cart.css.map */

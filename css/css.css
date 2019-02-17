@@ -978,6 +978,9 @@ body {
     margin-top: 32px;
     
     cursor: pointer;
+
+    text-align: center;
+    line-height: 50px;
 }
 
 .gotocart {

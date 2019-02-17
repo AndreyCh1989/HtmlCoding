@@ -1,12 +1,8 @@
 .item-container {
   position: relative;
   height: 1410px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .catalog-item-container {
@@ -14,18 +10,10 @@
   height: 777px;
   border: 1px solid #eaeaea;
   background-color: #f7f7f7;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
-
 .catalog-item-container__img {
   margin: 11px auto 42px;
 }
@@ -35,31 +23,18 @@
   height: 730px;
   border: 1px solid #eaeaea;
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   bottom: -86px;
   position: absolute;
   top: 700px;
 }
-
 .buy-container-characteristics {
   width: 334px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .buy-container-characteristics__text {
   margin: 28px 0 0 0;
   color: #b9b9b9;
@@ -68,15 +43,12 @@
   line-height: 24px;
   text-transform: uppercase;
 }
-
 .buy-container-characteristics__text_black {
   color: #2f2f2f;
 }
-
 .buy-container__text {
   margin: 73px auto 0;
 }
-
 .buy-container__text_collection {
   color: #f16d7f;
   font-size: 14px;
@@ -85,33 +57,27 @@
   padding-bottom: 14px;
   border-bottom: 1px solid #eaeaea;
 }
-
 .buy-container__text-2 {
   margin: 17px auto 0;
 }
-
 .buy-container__text-2_name {
   color: #4d4d4d;
   font-size: 18px;
   font-weight: 800;
   text-transform: uppercase;
 }
-
 .buy-container__text-3 {
   margin: 67px auto 0;
 }
-
 .buy-container__text-3_description {
   color: #5e5e5e;
   font-size: 14px;
   font-weight: 300;
   text-align: center;
 }
-
 .buy-container__text-4 {
   margin: 37px 0 0;
 }
-
 .buy-container__text-4_price {
   color: #ef5b70;
   font-size: 24px;
@@ -121,7 +87,6 @@
   text-align: center;
   padding-bottom: 43px;
 }
-
 .buy-container__button {
   width: 537px;
   border: 1px solid #ef5b70;
@@ -132,37 +97,25 @@
   text-align: center;
   line-height: 55px;
 }
-
 .buy-container__button_addtocard {
   margin: 28px auto;
 }
-
 .buy-container__cart {
   width: 26px;
   height: 24px;
 }
-
 .buy-container__cart_pink {
   margin-right: 15px;
 }
 
 .proposal-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .proposal-container__text {
   margin-top: 119px;
 }
-
 .proposal-container__features {
   margin-top: 60px;
   height: 375px;
@@ -175,7 +128,6 @@
   text-transform: uppercase;
   font-size: 24px;
 }
-
 .text-underline {
   padding-bottom: 3px;
   width: 63px;
@@ -184,25 +136,16 @@
 }
 
 .buy-options {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .buy-options {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   width: 538px;
   margin: 63px auto 0;
 }
-
 .buy-options-input {
   width: 144px;
   height: 35px;
@@ -214,7 +157,6 @@
   line-height: 24px;
   padding: 3px 5px 3px 5px;
 }
-
 .buy-options__text {
   color: #2f2f2f;
   font-size: 14px;
@@ -222,4 +164,5 @@
   line-height: 24px;
   text-transform: uppercase;
 }
+
 /*# sourceMappingURL=single_page.css.map */
