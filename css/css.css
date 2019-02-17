@@ -156,6 +156,11 @@ body {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    border-bottom: 3px solid #ffffff;
+}
+
+.menu-link:hover {
+    border-bottom: 3px solid #ef5b70;
 }
 
 .navigation {
@@ -783,19 +788,20 @@ body {
 .dropdown-menu-man {
     top: 50px;
     left: -38px;
+    display: flex;
+    visibility: hidden;
+
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease-in;
 }
 
 .navigation-item {
     position: relative;
 }
 
-.nav-item-man:hover dropdown-menu-man {
-    display: block;    
-}
-
-
-.nav-item-man:hover .dropdown-menu-man {
-    display: flex;
+.menu-link:hover + .dropdown {
+    visibility: visible;
+    opacity: 1;
 }
 
 .dropdown-container:last-of-type {
@@ -805,55 +811,61 @@ body {
 .dropdown-menu-home {
     top: 50px;
     left: -38px;
+    display: flex;
+    visibility: hidden;
+
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease-in;
 }
 
 .dropdown-menu-women {
     top: 50px;
     left: -28px;
+    display: flex;
+    visibility: hidden;
+
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease-in;
 }
 
 .dropdown-menu-kids {
     top: 50px;
     left: -38px;
+    display: flex;
+    visibility: hidden;
+
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease-in;
 }
 
 .dropdown-menu-accessories {
     top: 50px;
     left: -10px;
+    display: flex;
+    visibility: hidden;
+
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease-in;
 }
 
 .dropdown-menu-featured {
     top: 50px;
     left: -19px;
+    display: flex;
+    visibility: hidden;
+
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease-in;
 }
 
 .dropdown-menu-hot {
     top: 50px;
     left: -730px;
-}
-
-.nav-item-home:hover .dropdown-menu-home {
     display: flex;
-}
+    visibility: hidden;
 
-.nav-item-women:hover .dropdown-menu-women {
-    display: flex;
-}
-
-.nav-item-kids:hover .dropdown-menu-kids {
-    display: flex;
-}
-
-.nav-item-accessories:hover .dropdown-menu-accessories {
-    display: flex;
-}
-
-.nav-item-featured:hover .dropdown-menu-featured {
-    display: flex;
-}
-
-.nav-item-hot:hover .dropdown-menu-hot {
-    display: flex;
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease-in;
 }
 
 .flip::after {
@@ -1407,10 +1419,6 @@ body {
     line-height: 19.99px;
     text-transform: uppercase;
     font-size: 14px;    
-}
-
-.menu-link-choosed {
-    border-bottom: 3px solid #ef5b70;
 }
 
 .left-aside-collapse-button:not(:first-of-type) {
