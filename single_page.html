@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equlv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    
@@ -15,646 +14,648 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container header-flex">
-            <div class="header-left">
-                <a href="./index.html" class="logo"><img src="img/logo.png" class="logo-img" alt="logo">BRAN<span class="logo-d">D</span></a>
-                <div class="browse">Browse<img src="img/arrow-down-black.png" alt="" style="margin: 0px 0px 1px 8px">
-                    <div class="browse-dropdown dropdown">
-                        <div class="dropdown-container">
-                            <div class="dropdown-category">Women</div>
-                            <div class="dropdown-category-line"></div>
-                            <ul class="dropdown-category-items">
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
-                            </ul>
+    <div class="wrapper">
+        <div class="top">
+            <header class="header">
+                <div class="container header-flex">
+                    <div class="header-left">
+                        <a href="./index.html" class="logo"><img src="img/logo.png" class="logo-img" alt="logo">BRAN<span class="logo-d">D</span></a>
+                        <div class="browse">Browse<img src="img/arrow-down-black.png" alt="" style="margin: 0px 0px 1px 8px">
+                            <div class="browse-dropdown dropdown">
+                                <div class="dropdown-container">
+                                    <div class="dropdown-category">Women</div>
+                                    <div class="dropdown-category-line"></div>
+                                    <ul class="dropdown-category-items">
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-container">
+                                    <div class="dropdown-category">Men</div>
+                                    <div class="dropdown-category-line"></div>
+                                    <ul class="dropdown-category-items">
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Tees/Tank tops</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Shirts/Polos</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweatshirts/Hoodies</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/vests</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="dropdown-container">
-                            <div class="dropdown-category">Men</div>
-                            <div class="dropdown-category-line"></div>
-                            <ul class="dropdown-category-items">
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Tees/Tank tops</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Shirts/Polos</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweatshirts/Hoodies</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/vests</a></li>
-                            </ul>
-                        </div>
+                        <form class="form" action="#">
+                            <input type="text" class="search-input" placeholder="Search for Item...">
+                            <input type="submit" value="" class="button-search">
+                        </form>
                     </div>
-                </div>
-                <form class="form" action="#">
-                    <input type="text" class="search-input" placeholder="Search for Item...">
-                    <input type="submit" value="" class="button-search">
-                </form>
-            </div>
-            <div class="header-right">
-                <div class="cart">
-                    <a href="./cart.html" style="display: block; width: 32px; margin-right: 26px;">
-                        <img src="img/cart.svg" alt="cart" class="cart">
-                    </a>
-                    
-                    <div class="bag">
-                        <div class="bag-items">
-                            <div class="bag-position">
-                                <div class="bag-item">
-                                    <div class=""></div>
-                                    <img src="img/inbox_1.png" alt="" class="bag-item-img">
-                                    <div class="bag-item-desc">
-                                        <a href="./product.html" class="bag-item-name">Rebox Zane</a>
-                                        <div class="bag-item-rating">
-                                            <i class="fas fa-star bag-item-rating-star"></i>
-                                            <i class="fas fa-star bag-item-rating-star"></i>
-                                            <i class="fas fa-star bag-item-rating-star"></i>
-                                            <i class="fas fa-star bag-item-rating-star"></i>
-                                            <i class="fas fa-star-half-alt bag-item-rating-star"></i>
+                    <div class="header-right">
+                        <div class="cart">
+                            <a href="./cart.html" style="display: block; width: 32px; margin-right: 26px;">
+                                <img src="img/cart.svg" alt="cart" class="cart">
+                            </a>
+
+                            <div class="bag">
+                                <div class="bag-items">
+                                    <div class="bag-position">
+                                        <div class="bag-item">
+                                            <div class=""></div>
+                                            <img src="img/inbox_1.png" alt="" class="bag-item-img">
+                                            <div class="bag-item-desc">
+                                                <a href="./product.html" class="bag-item-name">Rebox Zane</a>
+                                                <div class="bag-item-rating">
+                                                    <i class="fas fa-star bag-item-rating-star"></i>
+                                                    <i class="fas fa-star bag-item-rating-star"></i>
+                                                    <i class="fas fa-star bag-item-rating-star"></i>
+                                                    <i class="fas fa-star bag-item-rating-star"></i>
+                                                    <i class="fas fa-star-half-alt bag-item-rating-star"></i>
+                                                </div>
+                                                <p class="bag-item-amount">1  x   $250</p>
+                                            </div>
+                                            <div style="display: flex; align-items: center;">
+                                                <a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a>
+                                            </div>
                                         </div>
-                                        <p class="bag-item-amount">1  x   $250</p>
+                                        <div class="bag-position-line"></div>
                                     </div>
-                                    <div style="display: flex; align-items: center;">
-                                        <a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a>        
-                                    </div>                                
-                                </div>
-                                <div class="bag-position-line"></div>                               
-                            </div>
-                            <div class="bag-position">
-                                <div class="bag-item">
-                                    <div class=""></div>
-                                    <img src="img/inbox_2.png" alt="" class="bag-item-img">
-                                    <div class="bag-item-desc">
-                                        <a href="./product.html" class="bag-item-name">Rebox Zane</a>
-                                        <div class="bag-item-rating">
-                                            <i class="fas fa-star bag-item-rating-star"></i>
-                                            <i class="fas fa-star bag-item-rating-star"></i>
-                                            <i class="fas fa-star bag-item-rating-star"></i>
-                                            <i class="fas fa-star bag-item-rating-star"></i>
-                                            <i class="fas fa-star-half-alt bag-item-rating-star"></i>
+                                    <div class="bag-position">
+                                        <div class="bag-item">
+                                            <div class=""></div>
+                                            <img src="img/inbox_2.png" alt="" class="bag-item-img">
+                                            <div class="bag-item-desc">
+                                                <a href="./product.html" class="bag-item-name">Rebox Zane</a>
+                                                <div class="bag-item-rating">
+                                                    <i class="fas fa-star bag-item-rating-star"></i>
+                                                    <i class="fas fa-star bag-item-rating-star"></i>
+                                                    <i class="fas fa-star bag-item-rating-star"></i>
+                                                    <i class="fas fa-star bag-item-rating-star"></i>
+                                                    <i class="fas fa-star-half-alt bag-item-rating-star"></i>
+                                                </div>
+                                                <p class="bag-item-amount">1  x   $250</p>
+                                            </div>
+                                            <div style="display: flex; align-items: center;">
+                                                <a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a>
+                                            </div>
                                         </div>
-                                        <p class="bag-item-amount">1  x   $250</p>
+                                        <div class="bag-position-line"></div>
                                     </div>
-                                    <div style="display: flex; align-items: center;">
-                                        <a href="#" class="fas fa-times-circle bag-item-cancel-icon"></a>        
-                                    </div>                                
                                 </div>
-                                <div class="bag-position-line"></div>                               
-                            </div>    
-                        </div>
-                        <div class="bag-total">
-                            <div class="bag-total-container">
-                                <div class="total">
-                                    <p class="total-text">TOTAL</p>
-                                    <p class="total-text">$500.00</p>
+                                <div class="bag-total">
+                                    <div class="bag-total-container">
+                                        <div class="total">
+                                            <p class="total-text">TOTAL</p>
+                                            <p class="total-text">$500.00</p>
+                                        </div>
+                                        <a href="./checkout.html" class="checkout" >Checkout</a>
+                                        <a href="./cart.html" class="gotocart">Go to cart</a>
+                                   </div>
                                 </div>
-                                <a href="./checkout.html" class="checkout" >Checkout</a>
-                                <a href="./cart.html" class="gotocart">Go to cart</a>    
-                           </div>
-                        </div>
-                    </div>    
-                </div>
-                <a class="button-account" href="#">My Account<img src="img/arrow-down.png" alt="" style="margin: 0px 0px 1px 8px"></a>
-            </div>
-        </div>
-    </header>
-
-    <nav class="navigation">
-        <div class="container">
-            <ul class="menu">
-                <li class="navigation-item nav-item-home">
-                    <a href="" class="menu-link">Home</a>
-                    <div class="dropdown-menu-home dropdown">
-                        <div class="dropdown-container">
-                            <div class="dropdown-category">Women</div>
-                            <div class="dropdown-category-line"></div>
-                            <ul class="dropdown-category-items">
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                </ul>
                             </div>
                         </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <img src="img/super_sale.png" alt="" style="margin-left: -13px">    
-                        </div>                        
-                    </div>
-                </li>
-                <li class="navigation-item nav-item-man">
-                    <a href="" class="menu-link">Man</a>
-                    <div class="dropdown-menu-man dropdown">
-                        <div class="dropdown-container">
-                            <div class="dropdown-category">Women</div>
-                            <div class="dropdown-category-line"></div>
-                            <ul class="dropdown-category-items">
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <img src="img/super_sale.png" alt="" style="margin-left: -13px">    
-                        </div>                        
-                    </div>
-                </li>
-                <li class="navigation-item nav-item-women">
-                    <a href="" class="menu-link">Women</a>
-                    <div class="dropdown-menu-women dropdown">
-                        <div class="dropdown-container">
-                            <div class="dropdown-category">Women</div>
-                            <div class="dropdown-category-line"></div>
-                            <ul class="dropdown-category-items">
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <img src="img/super_sale.png" alt="" style="margin-left: -13px">    
-                        </div>                        
-                    </div>
-                </li>
-                <li class="navigation-item nav-item-kids">
-                    <a href="" class="menu-link">Kids</a>
-                    <div class="dropdown-menu-kids dropdown">
-                        <div class="dropdown-container">
-                            <div class="dropdown-category">Women</div>
-                            <div class="dropdown-category-line"></div>
-                            <ul class="dropdown-category-items">
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <img src="img/super_sale.png" alt="" style="margin-left: -13px">    
-                        </div>                        
-                    </div>
-                </li>
-                <li class="navigation-item nav-item-accessories">
-                    <a href="" class="menu-link">Accessories</a>
-                    <div class="dropdown-menu-accessories dropdown">
-                        <div class="dropdown-container">
-                            <div class="dropdown-category">Women</div>
-                            <div class="dropdown-category-line"></div>
-                            <ul class="dropdown-category-items">
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <img src="img/super_sale.png" alt="" style="margin-left: -13px">    
-                        </div>                        
-                    </div>
-                </li>
-                <li class="navigation-item nav-item-featured">
-                    <a href="" class="menu-link">Featured</a>
-                    <div class="dropdown-menu-featured dropdown">
-                        <div class="dropdown-container">
-                            <div class="dropdown-category">Women</div>
-                            <div class="dropdown-category-line"></div>
-                            <ul class="dropdown-category-items">
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <img src="img/super_sale.png" alt="" style="margin-left: -13px">    
-                        </div>                        
-                    </div>
-                </li>
-                <li class="navigation-item nav-item-hot">
-                    <a href="" class="menu-link">Hot Deals</a>
-                    <div class="dropdown-menu-hot dropdown flip">
-                        <div class="dropdown-container">
-                            <div class="dropdown-category">Women</div>
-                            <div class="dropdown-category-line"></div>
-                            <ul class="dropdown-category-items">
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
-                                <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="dropdown-container">
-                                <div class="dropdown-category">Women</div>
-                                <div class="dropdown-category-line"></div>
-                                <ul class="dropdown-category-items">
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
-                                    <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
-                                </ul>
-                            </div>
-                            <img src="img/super_sale.png" alt="" style="margin-left: -13px">    
-                        </div>                        
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <header class="subheader">
-        <div class="container subheader-container">
-            <div class="subheader-leftside">
-                <p class="subheader-leftside-text">
-                    New Arrivals 
-                </p>    
-            </div>
-            <div class="subheader-rightside">
-                <div class="subheader-rightside-breadcrumb">
-                    <nav aria-label="breadcrumb">
-                      <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-item-link">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-item-link">Man</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">New Arrivals</li>
-                      </ol>
-                    </nav>
-                </div>    
-            </div>
-        </div>
-    </header>
-    
-    <div class="item-container">
-        <div class="catalog-item-container">
-            <img src="./img/catalog/catalog_big.jpg" alt="" class="catalog-item-container__img">        
-        </div>   
-
-        <div class="container buy-container">
-            <p class="buy-container__text buy-container__text_collection">WOMEN COLLECTION</p>
-            <div class="text-underline"></div>
-            <p class="buy-container__text-2 buy-container__text-2_name">Moschino Cheap And Chic</p>
-            <p class="buy-container__text-3 buy-container__text-3_description">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate<br/> collaborative architectures before cutting-edge services. Completely visualize parallel core competencies<br/> rather than exceptional portals. </p>
-            <div class="buy-container-characteristics">
-                <p class="buy-container-characteristics__text">MATERIAL: <span class="buy-container-characteristics__text_black">COTTON</span></p>
-                <p class="buy-container-characteristics__text">DESIGNER: <span class="buy-container-characteristics__text_black">BINBURHAN</span></p>
-            </div>
-            <p class="buy-container__text-4 buy-container__text-4_price">$561</p>
-            <div class="buy-options">
-                <div class="buy-option">
-                    <p class="buy-option__text">CHOOSE COLOR</p>
-                    <select class="buy-options-input" id="color">
-                        <option default value="red">RED</option>
-                        <option value="blue">BLUE</option>
-                        <option value="white">WHITE</option>
-                        <option value="blck">BLACK</option>
-                        <option value="pink">PINK</option>
-                    </select>
-                </div>
-                <div class="buy-option">
-                    <p class="buy-option__text">CHOOSE SIZE</p>
-                    <select class="buy-options-input" id="size">
-                        <option default value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option>
-                        <option value="XXL">XXL</option>
-                    </select>
-                </div>
-                <div class="buy-option">
-                    <p class="buy-option__text">QUANTITY</p>
-                    <input type="number" class="buy-options-input" min="0" max="10000">
-                </div>
-            </div>
-            <a href="./cart.html" class="buy-container__button buy-container__button_addtocard"><img src="./img/cart_pink.svg" class="buy-container__cart buy-container__cart_pink">Add to card</a>
-        </div> 
-    </div>
-
-    <div class="container proposal-container">
-        <p class="text proposal-container__text">you may like also</p>
-        <div class="features proposal-container__features">
-            <div class="feature">
-                <a href="#" class="product">
-                    <img src="img/catalog/w_1.jpg" class="feature-pic" alt="">
-                    </a><a href="#" class="add-cart-txt">
-                        <img src="img/cart-white.svg" alt="" style="margin: 7px 0px 12px 10px">
-                        <span style="margin: 5px 0px 7px 8px">Add to Cart</span>
-                    </a>
-                <a href="#" class="feature-desc">Mango People T-shirt</a>
-                <p class="feature-price">$52.00</p>
-            </div>
-            <div class="feature">
-                <a href="#" class="product">
-                    <img src="img/catalog/w_2.jpg" class="feature-pic" alt="">
-                    </a><a href="#" class="add-cart-txt">
-                        <img src="img/cart-white.svg" alt="" style="margin: 7px 0px 12px 10px">
-                        <span style="margin: 5px 0px 7px 8px">Add to Cart</span>
-                    </a>
-                <a href="#" class="feature-desc">Mango People T-shirt</a>
-                <p class="feature-price">$52.00</p>
-            </div>
-            <div class="feature">
-                <a href="#" class="product">
-                    <img src="img/catalog/w_3.jpg" class="feature-pic" alt="">
-                    </a><a href="#" class="add-cart-txt">
-                        <img src="img/cart-white.svg" alt="" style="margin: 7px 0px 12px 10px">
-                        <span style="margin: 5px 0px 7px 8px">Add to Cart</span>
-                    </a>
-                <a href="#" class="feature-desc">Mango People T-shirt</a>
-                <p class="feature-price">$52.00</p>
-            </div>
-            <div class="feature">
-                <a href="#" class="product">
-                    <img src="img/catalog/w_4.jpg" class="feature-pic" alt="">
-                    </a><a href="#" class="add-cart-txt">
-                        <img src="img/cart-white.svg" alt="" style="margin: 7px 0px 12px 10px">
-                        <span style="margin: 5px 0px 7px 8px">Add to Cart</span>
-                    </a>
-                <a href="#" class="feature-desc">Mango People T-shirt</a>
-                <p class="feature-price">$52.00</p>
-            </div>
-        </div>
-    </div>
-       
-    <div class="subscribe-back">
-        <img src="img/subscribe_back.jpg" alt="" class="subscribe-img">
-        <div class="subscribe-section">
-            <figure class="subscribe-left-side">
-                <img src="img/BB.png" alt="" class="bb-pic">
-                <div class="bb">
-                    <p class="bb-quote">“Vestibulum quls porttitor dul! Qulsque viverra nunc mi,<br />
-                        a pulvinar purus condimentum a. Aliquam condimentum<br /> mattis neque sed pretium”</p>
-                    <p class="bb-name">Bin Burhan</p>
-                    <p class="bb-place">Dhaka, Bd</p>
-                    <div class="figure">
-                        <div class="figure-gray"></div>
-                        <div class="figure-rad"></div>
-                        <div class="figure-gray"></div>
+                        <a class="button-account" href="#">My Account<img src="img/arrow-down.png" alt="" style="margin: 0px 0px 1px 8px"></a>
                     </div>
                 </div>
-            </figure>
-            <div class="subscribe-line"></div>
-            <div class="subscribe-right-side">
-                <p class="subscribe-upper-text">Subscribe</p>
-                <p class="subscribe-bottom-text">FOR OUR NEWLETTER AND PROMOTION</p>
-                <form class="subscribe-interaction">
-                    <input type="email" class="subscribe-email" placeholder="Enter Your Email">
-                    <input type="submit" class="subscribe-submit" value="Subscribe">
-                </form>
+            </header>
+
+            <nav class="navigation">
+                <div class="container">
+                    <ul class="menu">
+                        <li class="navigation-item nav-item-home">
+                            <a href="" class="menu-link">Home</a>
+                            <div class="dropdown-menu-home dropdown">
+                                <div class="dropdown-container">
+                                    <div class="dropdown-category">Women</div>
+                                    <div class="dropdown-category-line"></div>
+                                    <ul class="dropdown-category-items">
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="img/super_sale.png" alt="" style="margin-left: -13px">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navigation-item nav-item-man">
+                            <a href="" class="menu-link">Man</a>
+                            <div class="dropdown-menu-man dropdown">
+                                <div class="dropdown-container">
+                                    <div class="dropdown-category">Women</div>
+                                    <div class="dropdown-category-line"></div>
+                                    <ul class="dropdown-category-items">
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="img/super_sale.png" alt="" style="margin-left: -13px">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navigation-item nav-item-women">
+                            <a href="" class="menu-link">Women</a>
+                            <div class="dropdown-menu-women dropdown">
+                                <div class="dropdown-container">
+                                    <div class="dropdown-category">Women</div>
+                                    <div class="dropdown-category-line"></div>
+                                    <ul class="dropdown-category-items">
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="img/super_sale.png" alt="" style="margin-left: -13px">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navigation-item nav-item-kids">
+                            <a href="" class="menu-link">Kids</a>
+                            <div class="dropdown-menu-kids dropdown">
+                                <div class="dropdown-container">
+                                    <div class="dropdown-category">Women</div>
+                                    <div class="dropdown-category-line"></div>
+                                    <ul class="dropdown-category-items">
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="img/super_sale.png" alt="" style="margin-left: -13px">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navigation-item nav-item-accessories">
+                            <a href="" class="menu-link">Accessories</a>
+                            <div class="dropdown-menu-accessories dropdown">
+                                <div class="dropdown-container">
+                                    <div class="dropdown-category">Women</div>
+                                    <div class="dropdown-category-line"></div>
+                                    <ul class="dropdown-category-items">
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="img/super_sale.png" alt="" style="margin-left: -13px">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navigation-item nav-item-featured">
+                            <a href="" class="menu-link">Featured</a>
+                            <div class="dropdown-menu-featured dropdown">
+                                <div class="dropdown-container">
+                                    <div class="dropdown-category">Women</div>
+                                    <div class="dropdown-category-line"></div>
+                                    <ul class="dropdown-category-items">
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="img/super_sale.png" alt="" style="margin-left: -13px">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navigation-item nav-item-hot">
+                            <a href="" class="menu-link">Hot Deals</a>
+                            <div class="dropdown-menu-hot dropdown flip">
+                                <div class="dropdown-container">
+                                    <div class="dropdown-category">Women</div>
+                                    <div class="dropdown-category-line"></div>
+                                    <ul class="dropdown-category-items">
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Blazers</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Denim</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Leggings/Pants</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Skirts/Shorts</a></li>
+                                        <li class="dropdown-category-item"><a href="" class="dropdown-item">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-category">Women</div>
+                                        <div class="dropdown-category-line"></div>
+                                        <ul class="dropdown-category-items">
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Dresses</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Tops</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Sweaters/Knits</a></li>
+                                            <li class="dropdown-category-item"><a href="" class="dropdown-item">Jackets/Coats</a></li>
+                                        </ul>
+                                    </div>
+                                    <img src="img/super_sale.png" alt="" style="margin-left: -13px">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <header class="subheader">
+                <div class="container subheader-container">
+                    <div class="subheader-leftside">
+                        <p class="subheader-leftside-text">
+                            New Arrivals
+                        </p>
+                    </div>
+                    <div class="subheader-rightside">
+                        <div class="subheader-rightside-breadcrumb">
+                            <nav aria-label="breadcrumb">
+                              <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#" class="breadcrumb-item-link">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#" class="breadcrumb-item-link">Man</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">New Arrivals</li>
+                              </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="item-container">
+                <div class="catalog-item-container">
+                    <img src="./img/catalog/catalog_big.jpg" alt="" class="catalog-item-container__img">
+                </div>
+
+                <div class="container buy-container">
+                    <p class="buy-container__text buy-container__text_collection">WOMEN COLLECTION</p>
+                    <div class="text-underline"></div>
+                    <p class="buy-container__text-2 buy-container__text-2_name">Moschino Cheap And Chic</p>
+                    <p class="buy-container__text-3 buy-container__text-3_description">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate<br/> collaborative architectures before cutting-edge services. Completely visualize parallel core competencies<br/> rather than exceptional portals. </p>
+                    <div class="buy-container-characteristics">
+                        <p class="buy-container-characteristics__text">MATERIAL: <span class="buy-container-characteristics__text_black">COTTON</span></p>
+                        <p class="buy-container-characteristics__text">DESIGNER: <span class="buy-container-characteristics__text_black">BINBURHAN</span></p>
+                    </div>
+                    <p class="buy-container__text-4 buy-container__text-4_price">$561</p>
+                    <div class="buy-options">
+                        <div class="buy-option">
+                            <p class="buy-option__text">CHOOSE COLOR</p>
+                            <select class="buy-options-input" id="color">
+                                <option default value="red">RED</option>
+                                <option value="blue">BLUE</option>
+                                <option value="white">WHITE</option>
+                                <option value="blck">BLACK</option>
+                                <option value="pink">PINK</option>
+                            </select>
+                        </div>
+                        <div class="buy-option">
+                            <p class="buy-option__text">CHOOSE SIZE</p>
+                            <select class="buy-options-input" id="size">
+                                <option default value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                            </select>
+                        </div>
+                        <div class="buy-option">
+                            <p class="buy-option__text">QUANTITY</p>
+                            <input type="number" class="buy-options-input" min="0" max="10000">
+                        </div>
+                    </div>
+                    <a href="./cart.html" class="buy-container__button buy-container__button_addtocard"><img alt="" src="./img/cart_pink.svg" class="buy-container__cart buy-container__cart_pink">Add to card</a>
+                </div>
+            </div>
+
+            <div class="container proposal-container">
+                <p class="text proposal-container__text">you may like also</p>
+                <div class="features proposal-container__features">
+                    <div class="feature">
+                        <a href="#" class="product">
+                            <img src="img/catalog/w_1.jpg" class="feature-pic" alt="">
+                            </a><a href="#" class="add-cart-txt">
+                                <img src="img/cart-white.svg" alt="" style="margin: 7px 0px 12px 10px">
+                                <span style="margin: 5px 0px 7px 8px">Add to Cart</span>
+                            </a>
+                        <a href="#" class="feature-desc">Mango People T-shirt</a>
+                        <p class="feature-price">$52.00</p>
+                    </div>
+                    <div class="feature">
+                        <a href="#" class="product">
+                            <img src="img/catalog/w_2.jpg" class="feature-pic" alt="">
+                            </a><a href="#" class="add-cart-txt">
+                                <img src="img/cart-white.svg" alt="" style="margin: 7px 0px 12px 10px">
+                                <span style="margin: 5px 0px 7px 8px">Add to Cart</span>
+                            </a>
+                        <a href="#" class="feature-desc">Mango People T-shirt</a>
+                        <p class="feature-price">$52.00</p>
+                    </div>
+                    <div class="feature">
+                        <a href="#" class="product">
+                            <img src="img/catalog/w_3.jpg" class="feature-pic" alt="">
+                            </a><a href="#" class="add-cart-txt">
+                                <img src="img/cart-white.svg" alt="" style="margin: 7px 0px 12px 10px">
+                                <span style="margin: 5px 0px 7px 8px">Add to Cart</span>
+                            </a>
+                        <a href="#" class="feature-desc">Mango People T-shirt</a>
+                        <p class="feature-price">$52.00</p>
+                    </div>
+                    <div class="feature">
+                        <a href="#" class="product">
+                            <img src="img/catalog/w_4.jpg" class="feature-pic" alt="">
+                            </a><a href="#" class="add-cart-txt">
+                                <img src="img/cart-white.svg" alt="" style="margin: 7px 0px 12px 10px">
+                                <span style="margin: 5px 0px 7px 8px">Add to Cart</span>
+                            </a>
+                        <a href="#" class="feature-desc">Mango People T-shirt</a>
+                        <p class="feature-price">$52.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subscribe-back">
+                <img src="img/subscribe_back.jpg" alt="" class="subscribe-img">
+                <div class="subscribe-section">
+                    <figure class="subscribe-left-side">
+                        <img src="img/BB.png" alt="" class="bb-pic">
+                        <div class="bb">
+                            <p class="bb-quote">“Vestibulum quls porttitor dul! Qulsque viverra nunc mi,<br />
+                                a pulvinar purus condimentum a. Aliquam condimentum<br /> mattis neque sed pretium”</p>
+                            <p class="bb-name">Bin Burhan</p>
+                            <p class="bb-place">Dhaka, Bd</p>
+                            <div class="figure">
+                                <div class="figure-gray"></div>
+                                <div class="figure-rad"></div>
+                                <div class="figure-gray"></div>
+                            </div>
+                        </div>
+                    </figure>
+                    <div class="subscribe-line"></div>
+                    <div class="subscribe-right-side">
+                        <p class="subscribe-upper-text">Subscribe</p>
+                        <p class="subscribe-bottom-text">FOR OUR NEWLETTER AND PROMOTION</p>
+                        <form class="subscribe-interaction">
+                            <input type="email" class="subscribe-email" placeholder="Enter Your Email">
+                            <input type="submit" class="subscribe-submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <footer class="footer">
+        <footer class="footer">
         <div class="container">
             <div class="footer-middle">
                 <div class="about">
-                    <a href="./index.html" class="logo"><img src="img\logo.png" class="logo-img" alt="logo">BRAN<span class="logo-d">D</span></a>
+                    <a href="./index.html" class="logo"><img src="img/logo.png" class="logo-img" alt="logo">BRAN<span class="logo-d">D</span></a>
                     <p class="about-text">Objectively transition extensive data rather than cross functional<br /> solutions. Monotonectally syndicate multidisciplinary materials<br /> before go forward benefits. Intrinsicly syndicate an expanded array<br /> of processes and cross-unit partnerships.<br /><br />
 
                         Efficiently plagiarize 24/365 action items and focused infomediaries.<br />
@@ -717,6 +718,7 @@
             </div>
         </div>
     </footer>
+    </div>
 </body>
 
 </html>
